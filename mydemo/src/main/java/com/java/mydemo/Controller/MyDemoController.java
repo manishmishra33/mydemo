@@ -1,7 +1,7 @@
 package com.java.mydemo.Controller;
 
 import com.java.mydemo.Entity.Person;
-import com.java.mydemo.Service.PersoneService;
+import com.java.mydemo.Service.PersoneServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.Optional;
 public class MyDemoController {
 
     @Autowired
-    PersoneService personeService;
+    PersoneServiceImp personeService;
 
     @GetMapping("/data/get")
     public List<Person> getData(){
