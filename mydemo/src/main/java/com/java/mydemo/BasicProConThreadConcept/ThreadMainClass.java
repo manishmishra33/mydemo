@@ -1,4 +1,4 @@
-package com.java.mydemo.ThreadConcept;
+package com.java.mydemo.BasicProConThreadConcept;
 
 public class ThreadMainClass {
 
