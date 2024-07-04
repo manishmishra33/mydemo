@@ -1,4 +1,4 @@
-package com.java.mydemo.ThreadConcept;
+package com.java.mydemo.BasicProConThreadConcept;
 
 public class MyThread extends Thread{
     int value = 0;
